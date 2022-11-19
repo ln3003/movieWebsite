@@ -1,0 +1,28 @@
+.navbar {
+  background-color: transparent;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: large;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar p {
+  margin: 0 0 0 30px;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+.icon {
+  margin: 0 30px 0 0;
+  cursor: pointer;
+}
+.black-background {
+  background-color: black;
+}

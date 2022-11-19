@@ -1,0 +1,10 @@
+.movie-item {
+  transition: transform 0.5s;
+}
+.movie-item img {
+  width: 100%;
+  object-fit: cover;
+}
+.movie-item:hover {
+  transform: scale(110%);
+}

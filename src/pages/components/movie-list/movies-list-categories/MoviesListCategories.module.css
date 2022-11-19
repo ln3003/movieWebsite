@@ -1,0 +1,36 @@
+.movie-list-categorie {
+  margin-bottom: 50px;
+  padding-left: 10px;
+}
+.movie-list-categorie h3 {
+  color: white;
+  margin: 0 0 10px 10px;
+}
+.movie-list-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: scroll;
+  height: 140px;
+}
+
+/* width */
+.movie-list-items::-webkit-scrollbar {
+  width: 0;
+  height: 5px;
+}
+
+/* Track */
+.movie-list-items::-webkit-scrollbar-track {
+  background: rgb(41, 41, 41);
+}
+
+/* Handle */
+.movie-list-items::-webkit-scrollbar-thumb {
+  background: rgb(17, 23, 26);
+}
+
+/* Handle on hover */
+.movie-list-items::-webkit-scrollbar-thumb:hover {
+  background: rgb(57, 77, 87);
+}

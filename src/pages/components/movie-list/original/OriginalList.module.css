@@ -1,0 +1,12 @@
+.movie-list-categorie {
+  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.movie-list-items {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 210px;
+  overflow: hidden;
+}
